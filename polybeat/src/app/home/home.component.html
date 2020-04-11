@@ -1,0 +1,13 @@
+<button class="btn btn-primary m-2" (click)="timer.start()">Play</button>
+<button class="btn btn-primary m-2" (click)="timer.pause()">Pause</button>
+<button class="btn btn-primary m-2" (click)="timer.stop()">Stop</button>
+<button class="btn btn-primary m-2" (click)="timer.reset()">Reset</button>
+<div>
+    tick: {{ timer.tick }}
+</div>
+<div>
+    bpm: <input type="text" [(NgModel)]="interval"><button class="btn btn-secondary ml-2" (click)="setInterval()">Set</button>
+</div>
+<div>
+    bpm pipe test: {{ interval | bpm }}
+</div>
