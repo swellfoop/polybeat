@@ -1,2 +1,2 @@
 # polybeat
-Learn polyrythms through an interactive browser-based interface
+Learn polyrhythms through an interactive browser-based interface
